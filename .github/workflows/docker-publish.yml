@@ -36,8 +36,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner || 'richard-barrett' }}-${{ github.event.repository.name }}:latest
+            ghcr.io/${{ github.repository_owner || 'richard-barrett' }}-${{ github.event.repository.name }}:${{ github.sha }}
 
       - name: Logout from ghcr.io
         run: docker logout ghcr.io
