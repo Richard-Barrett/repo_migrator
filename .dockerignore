@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.zip
+.env
+venv/
+dist/
+build/
+*.egg-info/
+.git/
+.github/
+tests/
+Dockerfile
+*.md

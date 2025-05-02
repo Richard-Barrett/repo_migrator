@@ -1,0 +1,7 @@
+# Runtime requirements (standard library only, so no runtime deps)
+
+# Development and testing tools
+pytest>=7.0
+pylint>=3.0
+black>=24.3
+pre-commit>=3.0
