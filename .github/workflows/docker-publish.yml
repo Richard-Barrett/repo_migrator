@@ -36,10 +36,8 @@ jobs:
           context: .
           push: true
           tags: |
-            tags: |
-              ghcr.io/richard-barrett/repo-migrator:latest
-              ghcr.io/richard-barrett/repo-migrator:${{ github.sha }}
-
+            ghcr.io/richard-barrett/repo-migrator:latest
+            ghcr.io/richard-barrett/repo-migrator:${{ github.sha }}
 
       - name: Logout from ghcr.io
         run: docker logout ghcr.io
