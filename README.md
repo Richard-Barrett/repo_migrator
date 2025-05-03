@@ -11,6 +11,7 @@
 
 [![Docker Image Build](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/docker-build.yml/badge.svg)](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/docker-build.yml)
 [![Docker Publish to GHCR](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/docker-publish.yml)
+[![Publish to PyPI](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/publish-to-pypi.yml)
 [![Pylint](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/pylint.yml/badge.svg)](https://github.com/Richard-Barrett/repo_migrator/actions/workflows/pylint.yml)
 
 ---
@@ -35,6 +36,12 @@ cd repo_migrator
 python3 -m venv venv
 source venv/bin/activate
 pip install -e .
+```
+
+The package is also published to pypi, and you can use pip to download it and install it
+
+```
+pip install github-repo-migrator
 ```
 
 ### Option 2: Install via Docker (prebuilt image)
