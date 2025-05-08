@@ -3,6 +3,7 @@ name = "github-repo-migrator"
 version = "0.1.0"
 description = "CLI tool to migrate GitHub repos, update global git config and remotes"
 authors = [{ name="Your Name", email="you@example.com" }]
+readme = "README.md"
 dependencies = []
 
 [project.scripts]
